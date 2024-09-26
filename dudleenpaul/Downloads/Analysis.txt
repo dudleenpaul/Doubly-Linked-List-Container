@@ -1,0 +1,12 @@
+reverse() Function:
+The reverse function has a complexity of O(N) because it iterates through the nodes in the list one time (atleast), and does assignments or swapping.
+
+remove_if() Function:
+The remove_if() function has a complexity of O(N) because it also iterates through the nodes in the list atleast one time. With each element pred is applied which has a constant time.
+If predicate is true then it's removed. Worst case is iterating each element in the list to figure out which element is going to be remvoed.
+
+Both also have the requirements of a copy constructor, copy assignment operator, destructer, a clear function, and an eras function in their definition. 
+
+
+
+
